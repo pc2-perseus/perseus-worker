@@ -1,0 +1,27 @@
+### General ###
+
+# macos specific
+.DS_Store
+
+# IDE specific
+.idea
+
+#logs
+logs/*.log
+
+#test coverage files
+coverage
+
+# documentation
+docs/build
+
+# files generated while testing
+tests/files
+
+
+### Python ###
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
