@@ -18,8 +18,11 @@ docs/build
 # files generated while testing
 tests/files
 
+# whitelist
+whitelist.txt
 
 ### Python ###
+.venv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

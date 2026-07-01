@@ -1,0 +1,17 @@
+[project]
+name = "perseus-worker"
+version = "0.11.0"
+description = "PERSEUS workers can be used to outsource specific tasks outside PERSEUS core."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]==0.116.1",
+    "requests==2.32.4",
+    "pyjwt==2.10.1",
+    "cryptography==46.0.3"
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.5",
+]
